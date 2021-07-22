@@ -3,7 +3,7 @@
 # Introduction
 
 """
-Calculate color score based on the already existing super pixels from the ISIC-2017 challenge.
+Calculate color score based on the already existing super pixels from the ISIC-2017 challenge and PH2 dataset.
 """
 import sys
 
