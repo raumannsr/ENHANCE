@@ -3,7 +3,7 @@
 # Introduction
 
 """
-Calculate asymmetry score based on the already existing masks from the ISIC-2017 challenge.
+Calculate asymmetry score based on the already existing masks from the ISIC-2017 challenge and PH2 dataset.
 - score 0 is given in case of symmetry in both axes
 - score 1 is given in case of asymmetry in one axes
 - score 2 is given in case of asymmetry in both axes
