@@ -11,3 +11,5 @@ The 1_code folder contains the baseline and multi-task models used based on thre
 - 6_color.py: Code for calculating the color score based on existing ISIC and PH2 binary masks.
 
 - 7_border.py: Code for calculating the border score based on existing ISIC and PH2 binary masks.
+
+The remaining code files contain helper functions used by the above files.
