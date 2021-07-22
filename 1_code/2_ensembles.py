@@ -5,7 +5,7 @@
 """
 We based the ensembles on the predictions of three available multi-task models: asymmetry, border and color.
 Per annotation source (student, crowd and automated), we calculate using averaging ensemble technique
-the class prediction (malignant or benign).
+the class prediction (abnormal or healthy).
 """
 from statistics import mean
 
