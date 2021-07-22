@@ -6,7 +6,7 @@ The following figure illustrates the acquired annotations. The left part shows e
 
 ![plot](./example_lesions_and_masks.png)
 
-Following table summarises the number of collected annotations for each annotation source and type:
+The following table summarises the number of collected annotations for each annotation source and type:
 
 |           |           | ISIC | PH2 |
 |-----------|-----------|------|-----|
