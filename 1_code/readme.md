@@ -7,3 +7,7 @@ The 1_code folder contains the baseline and multi-task models used based on thre
 - 2_ensembles.py: We based the ensembles on the predictions of three available multi-task models: asymmetry, border and color. Per annotation source (student, crowd and automated), we calculate using averaging ensemble technique the class prediction (abnormal or healthy).
 
 - 5_asymmetry.py: Code for calculating the asymmetry score based on existing ISIC and PH2 binary masks.
+
+- 6_color.py: Code for calculating the color score based on existing ISIC and PH2 binary masks.
+
+- 7_border.py: Code for calculating the border score based on existing ISIC and PH2 binary masks.
