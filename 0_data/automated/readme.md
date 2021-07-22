@@ -1,4 +1,4 @@
-The following file contains annotations of visual ABC features from classic image processing algorithms based on the PH2 dataset:
+The following files contain annotations of visual ABC features from classic image processing algorithms based on the PH2 dataset:
 
 - computer_asymmetry_ph2_0.9.csv
 - computer_border_ph2_.csv
