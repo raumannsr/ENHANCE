@@ -2,6 +2,24 @@
 
 We present **ENHANCE** (**EN**riching **H**ealth data by **AN**notations of **C**rowd and **E**xperts), an open dataset with multiple annotations to complement the existing ISIC [1] and PH2 [2] skin lesion classification datasets. The dataset contains annotations of visual ABC (asymmetry, border, color) features from non-expert annotation sources: undergraduate students, crowd workers from Amazon MTurk and classic image processing algorithms.
 
+Following table summarises the number of collected annotations for each annotation source and type
+
+|           |           | ISIC | PH2 |
+|-----------|-----------|------|-----|
+| Automated |           |      |     |
+|           | Asymmetry | 1970 | 165 |
+|           | Border    | 1996 | 0   |
+|           | Color     | 2000 | 200 |
+| Crowd     |           |      |     |
+|           | Asymmetry | 1250 | 200 |
+|           | Border    | 1250 | 200 |
+|           | Color     | 1250 | 200 |
+| Student   |           |      |     |
+|           | Asymmetry | 1631 | 0   |
+|           | Border    | 1631 | 0   |
+|           | Color     | 1631 | 0   |
+          
+
 Here is a description of the repository structure and files:
 - 0_data: contains the collected annotations of visual features and example skin lesion images in four subfolders:
   - automated: contains annotations of visual ABC features from classic image processing algorithms
