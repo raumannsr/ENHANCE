@@ -5,7 +5,7 @@
 """
 The baseline model predicts a binary label (malignant or not) from a skin lesion image.
 The model is built on a convolutional base and extended further by adding specific layers.
-As encoder we used the VGG16 convolutional base. For this base,
+As an encoder, we used the VGG16, Inception v3, and ResNet50 convolutional base. For this base,
 containing a series of pooling and convolution layers, we applied fixed pre-trained ImageNet weights.
 We have trained the baseline in two ways: a) freeze the convolutional base
 and train the rest of the layers and b) train all layers including the convolutional base.
